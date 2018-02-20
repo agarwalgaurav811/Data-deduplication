@@ -1,4 +1,4 @@
-#Data-deduplication
+# Data-deduplication
 
 ## About
 
@@ -17,8 +17,3 @@ It takes in human training data and comes up with the best rules for your datase
 python main.py
 ```
 A file named "Deduplication output.csv" will be created in the data directory containing the outputs in clustered form.
-
-
-
-
-Star the repo if you like it :smile:
