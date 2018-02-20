@@ -94,11 +94,11 @@ else:
 
     # Define the fields it will pay attention to
     fields = [
-        {'field' : 'ln', 'type': 'Name'},
-        {'field' : 'dob', 'type': 'DateTime'},
+        {'field' : 'ln', 'type': 'String'},
+        {'field' : 'dob', 'type': 'Exact'},
         #{'field' : 'dob', 'type': 'String'},
         {'field' : 'gn', 'type': 'Exact'},
-        {'field' : 'fn', 'type': 'Name'},
+        {'field' : 'fn', 'type': 'String'},
         ]
 
     # Created a new object and passed our data model to it.
