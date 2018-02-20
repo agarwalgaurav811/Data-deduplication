@@ -16,4 +16,4 @@ It takes in human training data and comes up with the best rules for your datase
 ```
 python main.py
 ```
-A file named "Deduplication output.csv" will be created in the data directory containing the outputs in clustered form.
+A file named "Deduplication output.csv" will be created in the data directory with a new column called 'Cluster ID' which indicates which records refer to each other.
